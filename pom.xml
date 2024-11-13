@@ -32,6 +32,8 @@
 		<jakarta.xml.bind-api.version>4.0.2</jakarta.xml.bind-api.version>
 		<jaxws-maven-plugin.version>4.0.3</jaxws-maven-plugin.version>
 		<spring-ws-core.version>4.0.11</spring-ws-core.version>
+		<springdoc.version>2.6.0</springdoc.version>
+		<jakarta.xml.ws-api.version>4.0.2</jakarta.xml.ws-api.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,7 +59,17 @@
 		<dependency>
 			<groupId>jakarta.xml.ws</groupId>
 			<artifactId>jakarta.xml.ws-api</artifactId>
-			<version>4.0.2</version>
+			<version>${jakarta.xml.ws-api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+			<version>${springdoc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>${springdoc.version}</version>
 		</dependency>
 
 	</dependencies>
