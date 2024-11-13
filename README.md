@@ -4,6 +4,8 @@ How to Consume Soap Webservices using WebServiceTemplate and Spring Boot.
 
 This project is a client of the SOAP api server at [spring-boot-soap-ws](https://github.com/bruce-mig/spring-boot-soap-ws)
 
+---
+
 ### Use case (Development)
 
 SOAP API app to evaluate loan eligibility for customers using Contract First Approach `WSDL -> Java`
@@ -21,15 +23,15 @@ SOAP API app to evaluate loan eligibility for customers using Contract First App
 - Approved Amount
 - Mismatch Criteria
 
+---
 
-[//]: # (### Eligible Case)
+### Eligible Case
 
-[//]: # (![eligible]&#40;success-case.png&#41;)
+![eligible](success-res.png)
 
-[//]: # (## Non Eligible Case)
+### Non Eligible Case
 
-[//]: # (![non-eligible]&#40;failure-case.png&#41;)
-
+![non-eligible](failure-res.png)
 
 ### WSDL file
 
